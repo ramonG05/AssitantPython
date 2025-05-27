@@ -104,7 +104,7 @@ class AsistenteVoz:
                     "notepad": "notepad.exe",
                     "calculadora": "calc.exe",
                     "explorador de archivos": "explorer.exe",
-                    "marvel rivals": "MarvelRivals_Launcher.exe",
+                    "steam": "steam.exe",
                 }
                 
                 if nombre_app.lower() in apps:
@@ -178,7 +178,7 @@ class AsistenteVoz:
                 video_url = f"https://www.youtube.com/watch?v={video_id}"
                 
                 # Abrimos Brave
-                self.abrir_aplicacion("brave")
+                webbrowser.open(video_url)
                 
                 # Abrimos el video directamente
                 webbrowser.open(video_url)
