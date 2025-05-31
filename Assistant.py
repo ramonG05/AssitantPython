@@ -104,7 +104,11 @@ class AsistenteVoz:
                     "notepad": "notepad.exe",
                     "calculadora": "calc.exe",
                     "explorador de archivos": "explorer.exe",
-                    "steam": "steam.exe",
+                    "steam": [
+                    r"C:\Program Files (x86)\Steam\steam.exe",
+                    r"C:\Program Files\Steam\steam.exe",
+                    "steam.exe"  # Como último recurso
+                ],
                 }
                 
                 if nombre_app.lower() in apps:
