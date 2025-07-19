@@ -1,6 +1,3 @@
-"""
-Utilidades del proyecto
-"""
 
 from .exceptions import VoiceRecognitionError
 from .system_manager import SystemManager
