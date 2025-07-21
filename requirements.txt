@@ -1,0 +1,5 @@
+PyQt5
+SpeechRecognition
+requests
+beautifulsoup4
+keyboard

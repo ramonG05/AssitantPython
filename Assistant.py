@@ -181,10 +181,7 @@ class AsistenteVoz:
                 # Formamos la URL directa del video
                 video_url = f"https://www.youtube.com/watch?v={video_id}"
                 
-                # Abrimos Brave
-                webbrowser.open(video_url)
-                
-                # Abrimos el video directamente
+                # Abrimos brave y reproducimos el video
                 webbrowser.open(video_url)
                 self.escuchando = False  # Detiene el ciclo de escucha después de reproducir música
                 return True
